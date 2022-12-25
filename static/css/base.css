@@ -4,9 +4,10 @@ body {
 }
 
 header {
+    display: flex;
     border-bottom: 1px solid #999;
     margin-bottom: 2rem;
-    display: flex;
+    justify-content: space-between;
 }
 
 header h1 a {
@@ -14,12 +15,12 @@ header h1 a {
     text-decoration: none;  
 }
 
-.nav-lef{
+.nav-left{
     margin-right: auto;
 }
 
 .nav-right {
-    display: flex;
+   
     padding-top: 2rem;;
 }
 
